@@ -109,3 +109,47 @@
     
     gap:20px;
 }
+.howitworks{
+    display:flex;
+ 
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    margin:60px;
+}
+.card1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+  
+   margin:auto;
+   border:1px solid;
+}
+.card2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+  
+   margin:auto;
+   border:1px solid;
+}
+.card3{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+  
+   margin:auto;
+   border:1px solid;
+}
+.pricing{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+  
+   margin:auto;
+   border:1px solid;
+}
