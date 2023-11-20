@@ -1,0 +1,111 @@
+
+:root{
+    --lavender-magenta-50: #fdf5fe;
+   --lavender-magenta-100: #fceafd;
+   --lavender-magenta-200: #f8d4fa;
+   --lavender-magenta-300: #f4b2f5;
+   --lavender-magenta-400: #ee82ee;
+   --lavender-magenta-500: #e154e1;
+   --lavender-magenta-600: #c435c0;
+   --lavender-magenta-700: #a3289e;
+   --lavender-magenta-800: #85237f;
+   --lavender-magenta-900: #6d2267;
+   --lavender-magenta-950: #480a44;
+   
+   
+   
+   
+   }
+   body{
+    background-color: var(--lavender-magenta-100);
+    margin:0;
+   }
+   #header{
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     align-items:center;
+     background:var(--lavender-magenta-950);
+     color:var(--lavender-magenta-50);
+     margin-bottom: 10px;
+     position:fixed;
+     top:0;
+     width:100%;
+    
+          
+   
+   }
+   ul{
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     list-style: none;
+   }
+   .logo{
+     max-width:10px;
+   }
+   
+   nav ul{
+     gap:20px;
+   }
+   #form{
+    display: flex;
+    flex-direction: column;
+     border:none;
+     margin: 40px;
+     align-items: center;
+     justify-content: space-between;
+     
+    
+    
+   }
+   #form input{
+     display:flex;
+     align-item:center;
+      justify-content:center;
+      margin-bottom: 7px;
+   }
+
+   button[type=submit]{
+    display:flex;
+    align-item:center;
+     justify-content:center;
+     background-color: var(--lavender-magenta-500);
+     color:var(--lavender-magenta-50);
+     
+     padding: -5px;
+     margin:0;
+     border-radius: 10px;
+     border-color: #f8d4fa;
+  }
+   nav ul li a{
+     text-decoration:none;
+     color:var(--lavender-magenta-50);
+   }
+   .feature{
+    
+     display:flex;
+     
+    
+   
+     gap:20px;
+  
+   
+   }
+ 
+
+.features{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    margin:60px;
+}
+.merge{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+    gap:20px;
+}
